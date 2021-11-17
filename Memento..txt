@@ -1,0 +1,23 @@
+Etapes
+=======
+1> git add "nom de fichier"  "nom de fichierx"
+	à chaque fois pour ajouter ou mettre a our un fichier vers le stage
+
+2> git commit -m "Ajout du fichier x"
+	Crée une nouvele version du projet et passe les fichiers du stage vers le repository
+
+
+3> git remote add origin https://github.com/ngangbo/OpenclassroomsProject.git
+	git branch -M main
+	git push -u origin main		(Envoyer des commit du dépot local vers le depot distant)
+
+--------------
+> git checkout branche2		Basculer vers la brance2
+
+--------------
+Prolème de connexion au push?
+Remplacer dans "config" 
+		url = https://github.com/ngangbo/OpenclassroomsProject.git
+		par
+		url = git@github.com:ngangbo/OpenclassroomsProject.git
+
